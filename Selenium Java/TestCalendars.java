@@ -73,7 +73,7 @@ public class TestCalendars {
 			driver.findElement(By.xpath("//table[@class='ui-datepicker-calendar']//td[not(contains(@class,'ui-datepicker-other-month'))]/a[text()="+targetDay+"]")).click();
 
 		} catch (ParseException e) {
-			throw new Exception("Invalid date is provided, please check input date");
+			throw ne Exception("Invalid date is provided, please check input date");
 		}
 	}
 }
